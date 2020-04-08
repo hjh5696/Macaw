@@ -1128,7 +1128,7 @@ open class SVGParser {
                     fill: fill,
                     stroke: stroke,
                     align: anchorToAlign(textAnchor),
-                    baseline: .bottom,
+                    baseline: .top,
                     place: position,
                     opacity: opacity,
                     tag: getTag(text))
