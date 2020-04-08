@@ -753,6 +753,9 @@ open class SVGParser {
             let color = Color(val: systemColor)
             return opacity != 1 ? color.with(a: opacity) : color
         }
+        if colorString.hasPrefix("rgba") {
+            return parseRGBANotation(colorString: colorString)
+        }
         if colorString.hasPrefix("rgb") {
             let color = parseRGBNotation(colorString: colorString)
             return opacity != 1 ? color.with(a: opacity) : color
