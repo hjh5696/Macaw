@@ -233,7 +233,6 @@
 		57614B661F83D15600875933 /* PinchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E10C1E3B393900D1CB28 /* PinchEvent.swift */; };
 		57614B671F83D15600875933 /* ContentsInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A27BCE1E44C4EC0057BD3A /* ContentsInterpolation.swift */; };
 		57614B681F83D15600875933 /* GroupRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E13E1E3B393900D1CB28 /* GroupRenderer.swift */; };
-		57614B691F83D15600875933 /* SVGParserRegexHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E1491E3B393900D1CB28 /* SVGParserRegexHelper.swift */; };
 		57614B6B1F83D15600875933 /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E14E1E3B393900D1CB28 /* NSTimer+Closure.swift */; };
 		57614B6C1F83D15600875933 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CEFC51E2CED4B008C7C83 /* SWXMLHash+TypeConversion.swift */; };
 		57614B6D1F83D15600875933 /* AnimationSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E0FF1E3B393900D1CB28 /* AnimationSequence.swift */; };
@@ -330,7 +329,6 @@
 		57E5E1AA1E3B393900D1CB28 /* SVGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E1461E3B393900D1CB28 /* SVGConstants.swift */; };
 		57E5E1AB1E3B393900D1CB28 /* SVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E1471E3B393900D1CB28 /* SVGParser.swift */; };
 		57E5E1AC1E3B393900D1CB28 /* SVGParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E1481E3B393900D1CB28 /* SVGParserError.swift */; };
-		57E5E1AD1E3B393900D1CB28 /* SVGParserRegexHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E1491E3B393900D1CB28 /* SVGParserRegexHelper.swift */; };
 		57E5E1AE1E3B393900D1CB28 /* SVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E14A1E3B393900D1CB28 /* SVGView.swift */; };
 		57E5E1AF1E3B393900D1CB28 /* CAAnimationClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E14C1E3B393900D1CB28 /* CAAnimationClosure.swift */; };
 		57E5E1B01E3B393900D1CB28 /* CGFloat+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E14D1E3B393900D1CB28 /* CGFloat+Double.swift */; };
@@ -582,6 +580,8 @@
 		5B7E79CF20CBE69700C50BCF /* masking-path-02-b-manual.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79CD20CBE69700C50BCF /* masking-path-02-b-manual.svg */; };
 		5B7E79DE20D2781A00C50BCF /* masking-intro-01-f-manual.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79DC20D2781A00C50BCF /* masking-intro-01-f-manual.reference */; };
 		5B7E79DF20D2781A00C50BCF /* masking-intro-01-f-manual.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79DD20D2781A00C50BCF /* masking-intro-01-f-manual.svg */; };
+		5B9B970C2486506A00CAF2CE /* PathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECDC7A222FE6DD009C8E6A /* PathAnimation.swift */; };
+		5B9B970D2486506C00CAF2CE /* PathAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECDC7C222FE6E2009C8E6A /* PathAnimationGenerator.swift */; };
 		5BAE201F208E1211006BF277 /* SVGCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE201E208E1211006BF277 /* SVGCanvas.swift */; };
 		5BAE2038208E163D006BF277 /* polyline.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE2022208E1637006BF277 /* polyline.reference */; };
 		5BAE2039208E163D006BF277 /* polygon.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE2023208E1637006BF277 /* polygon.reference */; };
@@ -603,6 +603,8 @@
 		5BAEA9C9206CEAA20049AAAE /* viewBox.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5BAEA9C8206CEAA20049AAAE /* viewBox.svg */; };
 		5BC2CA0D21C7B8F500AC46D9 /* CombinationAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2CA0C21C7B8F400AC46D9 /* CombinationAnimationGenerator.swift */; };
 		5BC2CA0E21C7B8F900AC46D9 /* CombinationAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2CA0C21C7B8F400AC46D9 /* CombinationAnimationGenerator.swift */; };
+		5BECDC7B222FE6DE009C8E6A /* PathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECDC7A222FE6DD009C8E6A /* PathAnimation.swift */; };
+		5BECDC7D222FE6E2009C8E6A /* PathAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECDC7C222FE6E2009C8E6A /* PathAnimationGenerator.swift */; };
 		5BFEF5CE20B80A83008DAC11 /* BlendEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEF5CC20B80A82008DAC11 /* BlendEffect.swift */; };
 		5BFEF5CF20B80A83008DAC11 /* BlendEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEF5CC20B80A82008DAC11 /* BlendEffect.swift */; };
 		5BFEF5D020B80A83008DAC11 /* ColorMatrixEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEF5CD20B80A83008DAC11 /* ColorMatrixEffect.swift */; };
@@ -950,7 +952,6 @@
 		57E5E1461E3B393900D1CB28 /* SVGConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGConstants.swift; sourceTree = "<group>"; };
 		57E5E1471E3B393900D1CB28 /* SVGParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParser.swift; sourceTree = "<group>"; };
 		57E5E1481E3B393900D1CB28 /* SVGParserError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParserError.swift; sourceTree = "<group>"; };
-		57E5E1491E3B393900D1CB28 /* SVGParserRegexHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParserRegexHelper.swift; sourceTree = "<group>"; };
 		57E5E14A1E3B393900D1CB28 /* SVGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGView.swift; sourceTree = "<group>"; };
 		57E5E14C1E3B393900D1CB28 /* CAAnimationClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAAnimationClosure.swift; sourceTree = "<group>"; };
 		57E5E14D1E3B393900D1CB28 /* CGFloat+Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Double.swift"; sourceTree = "<group>"; };
@@ -1195,6 +1196,8 @@
 		5BAE2057208F24DE006BF277 /* SceneSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneSerialization.swift; sourceTree = "<group>"; };
 		5BAEA9C8206CEAA20049AAAE /* viewBox.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = viewBox.svg; sourceTree = "<group>"; };
 		5BC2CA0C21C7B8F400AC46D9 /* CombinationAnimationGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinationAnimationGenerator.swift; sourceTree = "<group>"; };
+		5BECDC7A222FE6DD009C8E6A /* PathAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathAnimation.swift; path = Source/animation/types/PathAnimation.swift; sourceTree = SOURCE_ROOT; };
+		5BECDC7C222FE6E2009C8E6A /* PathAnimationGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathAnimationGenerator.swift; path = animation_generators/PathAnimationGenerator.swift; sourceTree = "<group>"; };
 		5BFEF5CC20B80A82008DAC11 /* BlendEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendEffect.swift; sourceTree = "<group>"; };
 		5BFEF5CD20B80A83008DAC11 /* ColorMatrixEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorMatrixEffect.swift; sourceTree = "<group>"; };
 		5BFEF5D420BC1C1E008DAC11 /* paths-data-18-f-manual.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "paths-data-18-f-manual.svg"; sourceTree = "<group>"; };
@@ -1576,6 +1579,7 @@
 				57E5E1011E3B393900D1CB28 /* ContentsAnimation.swift */,
 				57E5E1021E3B393900D1CB28 /* MorphingAnimation.swift */,
 				57E5E1031E3B393900D1CB28 /* OpacityAnimation.swift */,
+				5BECDC7C222FE6E2009C8E6A /* PathAnimationGenerator.swift */,
 				57A27BD01E44C5460057BD3A /* ShapeAnimation.swift */,
 				57E5E1041E3B393900D1CB28 /* TransformAnimation.swift */,
 			);
@@ -1586,12 +1590,13 @@
 			isa = PBXGroup;
 			children = (
 				57E5E0F61E3B393900D1CB28 /* Cache */,
+				5BC2CA0C21C7B8F400AC46D9 /* CombinationAnimationGenerator.swift */,
 				57E5E0FB1E3B393900D1CB28 /* MorphingGenerator.swift */,
-				57A27BD21E44C5570057BD3A /* ShapeAnimationGenerator.swift */,
 				57E5E0FC1E3B393900D1CB28 /* OpacityGenerator.swift */,
+				5BECDC7A222FE6DD009C8E6A /* PathAnimation.swift */,
+				57A27BD21E44C5570057BD3A /* ShapeAnimationGenerator.swift */,
 				5B7D7ED221300D4A00B5ED00 /* TimingFunction.swift */,
 				57E5E0FE1E3B393900D1CB28 /* TransformGenerator.swift */,
-				5BC2CA0C21C7B8F400AC46D9 /* CombinationAnimationGenerator.swift */,
 			);
 			path = animation_generators;
 			sourceTree = "<group>";
@@ -1731,7 +1736,6 @@
 				5B1A8C7520A15F7300E5FFAE /* SVGNodeLayout.swift */,
 				57E5E1471E3B393900D1CB28 /* SVGParser.swift */,
 				57E5E1481E3B393900D1CB28 /* SVGParserError.swift */,
-				57E5E1491E3B393900D1CB28 /* SVGParserRegexHelper.swift */,
 				C4820B171F458D0E008CE0FF /* SVGSerializer.swift */,
 				57E5E14A1E3B393900D1CB28 /* SVGView.swift */,
 			);
@@ -2767,6 +2771,7 @@
 				57614B461F83D15600875933 /* ContentsAnimation.swift in Sources */,
 				57614B471F83D15600875933 /* TouchEvent.swift in Sources */,
 				57614B481F83D15600875933 /* MBezierPath+Extension_macOS.swift in Sources */,
+				5B9B970C2486506A00CAF2CE /* PathAnimation.swift in Sources */,
 				5BFEF5CF20B80A83008DAC11 /* BlendEffect.swift in Sources */,
 				30FF496D215CF27E00FF653C /* MCAShapeLayerLineCap_macOS.swift in Sources */,
 				57614B491F83D15600875933 /* MView_macOS.swift in Sources */,
@@ -2802,6 +2807,7 @@
 				A7B47E44230EA402009DD7E5 /* Graphics_iOS.swift in Sources */,
 				57614B611F83D15600875933 /* PanEvent.swift in Sources */,
 				57614B621F83D15600875933 /* RotateEvent.swift in Sources */,
+				5B9B970D2486506C00CAF2CE /* PathAnimationGenerator.swift in Sources */,
 				57614B631F83D15600875933 /* Insets.swift in Sources */,
 				3081E77E20DB58B100640F96 /* DescriptionExtensions.swift in Sources */,
 				57614B641F83D15600875933 /* Rect.swift in Sources */,
@@ -2811,7 +2817,6 @@
 				57614B671F83D15600875933 /* ContentsInterpolation.swift in Sources */,
 				57614B681F83D15600875933 /* GroupRenderer.swift in Sources */,
 				5B6E192820AC58F900454E7E /* RadialGradient.swift in Sources */,
-				57614B691F83D15600875933 /* SVGParserRegexHelper.swift in Sources */,
 				5B6E192A20AC58F900454E7E /* Align.swift in Sources */,
 				57614B6B1F83D15600875933 /* NSTimer+Closure.swift in Sources */,
 				5B6E193620AC58F900454E7E /* Stop.swift in Sources */,
@@ -2931,6 +2936,7 @@
 				57E5E1AF1E3B393900D1CB28 /* CAAnimationClosure.swift in Sources */,
 				5B6E194320AC58F900454E7E /* Gradient.swift in Sources */,
 				A718CD441F45C28200966E06 /* Common_iOS.swift in Sources */,
+				5BECDC7D222FE6E2009C8E6A /* PathAnimationGenerator.swift in Sources */,
 				5B6E194120AC58F900454E7E /* Color.swift in Sources */,
 				A718CD4D1F45C28F00966E06 /* Common_macOS.swift in Sources */,
 				57F1087A1F53C92000DC365B /* MDisplayLink.swift in Sources */,
@@ -2954,13 +2960,13 @@
 				57A27BCF1E44C4EC0057BD3A /* ContentsInterpolation.swift in Sources */,
 				57E5E1A31E3B393900D1CB28 /* GroupRenderer.swift in Sources */,
 				5B6E192720AC58F900454E7E /* RadialGradient.swift in Sources */,
-				57E5E1AD1E3B393900D1CB28 /* SVGParserRegexHelper.swift in Sources */,
 				5B6E192920AC58F900454E7E /* Align.swift in Sources */,
 				57E5E1B11E3B393900D1CB28 /* NSTimer+Closure.swift in Sources */,
 				30FF4962215CE97300FF653C /* MCAMediaTimingFillMode_iOS.swift in Sources */,
 				5B6E193520AC58F900454E7E /* Stop.swift in Sources */,
 				572CEFC71E2CED4B008C7C83 /* SWXMLHash+TypeConversion.swift in Sources */,
 				30FF496B215CF0ED00FF653C /* MCAShapeLayerLineCap_iOS.swift in Sources */,
+				5BECDC7B222FE6DE009C8E6A /* PathAnimation.swift in Sources */,
 				57E5E16B1E3B393900D1CB28 /* AnimationSequence.swift in Sources */,
 				5B1A8C7620A15F7300E5FFAE /* SVGNodeLayout.swift in Sources */,
 				57E5E1671E3B393900D1CB28 /* MorphingGenerator.swift in Sources */,
@@ -3004,6 +3010,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3029,6 +3036,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3226,8 +3234,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7T95R85V93;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)",
@@ -3249,8 +3257,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7T95R85V93;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)",
